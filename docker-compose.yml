@@ -1,8 +1,7 @@
 version: '2'
 services:
-
   devpi:
-      image: muccg/devpi:latest
+    image: quay.io/jedmitten/docker-devpi:latest
     volumes:
       - ./data:/data
     ports:
