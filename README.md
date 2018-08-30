@@ -24,7 +24,7 @@ docker run -d --name devpi \
     --volume /srv/docker/devpi:/data \
     --env=DEVPI_PASSWORD=changemetoyourlongsecret \
     --restart always \
-    quay.io/jedmitten/devpi
+    quay.io/jedmitten/docker-devpi
 ```
 
 *Alternatively, you can use the sample [docker-compose.yml](docker-compose.yml)
